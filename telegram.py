@@ -4,7 +4,7 @@ from telethon.tl.functions.photos import UploadProfilePhotoRequest, DeletePhotos
 from PIL import Image, ImageDraw, ImageFont
 import time
 
-client = TelegramClient('name', "1996728", "2b7b16880ef540b5dd29efc460ccf28c")
+client = TelegramClient('name', "", "")
 client.start()
 
 time1 = ''
