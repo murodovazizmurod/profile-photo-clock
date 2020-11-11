@@ -1,5 +1,4 @@
 from telethon.sync import TelegramClient
-from telethon import functions, types
 from telethon.tl.functions.photos import UploadProfilePhotoRequest, DeletePhotosRequest
 from PIL import Image, ImageDraw, ImageFont
 import time
