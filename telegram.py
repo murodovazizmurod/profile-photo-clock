@@ -1,4 +1,4 @@
-from telethon.sync import TelegramClient, events
+from telethon.sync import TelegramClient
 from telethon import functions, types
 from telethon.tl.functions.photos import UploadProfilePhotoRequest, DeletePhotosRequest
 from PIL import Image, ImageDraw, ImageFont
@@ -29,7 +29,6 @@ def upload():
     result = client(UploadProfilePhotoRequest(
         file=client.upload_file('profile.jpg')
     ))
-    print(result.stringify())
     tick()
 
 while True:
